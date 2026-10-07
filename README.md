@@ -68,9 +68,8 @@ Visit **[http://127.0.0.1:5000](http://127.0.0.1:5000)** in any modern web brows
 All Tableau Public URLs and views are configured cleanly in [`config.py`](file:///c:/Users/Aditya%20Kadam/OneDrive/Documents/Food_Ordering_Web/config.py):
 
 ```python
-TABLEAU_BASE_URL = "https://public.tableau.com/views/FoodOrderingBehaviourandConsumerTrends-Aditya"
 TABLEAU_DASHBOARD_URL = "https://public.tableau.com/views/FoodOrderingBehaviourandConsumerTrends-Aditya/Dashboard1"
-TABLEAU_STORY_URL = "https://public.tableau.com/views/FoodOrderingBehaviourandConsumerTrends-Aditya/Story1"
+TABLEAU_STORY_URL = "https://public.tableau.com/views/FoodOrderingBehaviourandConsumerTrends-Aditya/ProfessionalClear"
 ```
 
 If you publish new dashboards or update the workbook on Tableau Public, simply update the URLs in `config.py` and the entire web application will automatically sync!
